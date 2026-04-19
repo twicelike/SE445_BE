@@ -1,7 +1,6 @@
 package com.study.prhrsystem.controller;
 
-import com.study.prhrsystem.DTO.EmployeeDashboardDTO;
-import com.study.prhrsystem.repository.EmployeeRepository;
+import com.study.prhrsystem.dto.EmployeeDashboardDTO;
 import com.study.prhrsystem.service.EmployeeService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

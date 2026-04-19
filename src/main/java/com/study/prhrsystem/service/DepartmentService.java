@@ -1,6 +1,6 @@
 package com.study.prhrsystem.service;
 
-import com.study.prhrsystem.DTO.DepartmentDTO;
+import com.study.prhrsystem.dto.DepartmentDTO;
 import com.study.prhrsystem.repository.DepartmentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

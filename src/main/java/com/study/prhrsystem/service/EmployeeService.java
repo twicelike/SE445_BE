@@ -2,10 +2,10 @@ package com.study.prhrsystem.service;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.study.prhrsystem.DTO.BenefitDTO;
-import com.study.prhrsystem.DTO.EarningDTO;
-import com.study.prhrsystem.DTO.EmployeeDashboardDTO;
-import com.study.prhrsystem.DTO.VacationDTO;
+import com.study.prhrsystem.dto.BenefitDTO;
+import com.study.prhrsystem.dto.EarningDTO;
+import com.study.prhrsystem.dto.EmployeeDashboardDTO;
+import com.study.prhrsystem.dto.VacationDTO;
 import com.study.prhrsystem.repository.EmployeeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

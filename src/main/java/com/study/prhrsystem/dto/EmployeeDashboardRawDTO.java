@@ -1,4 +1,4 @@
-package com.study.prhrsystem.DTO;
+package com.study.prhrsystem.dto;
 
 import java.time.LocalDate;
 

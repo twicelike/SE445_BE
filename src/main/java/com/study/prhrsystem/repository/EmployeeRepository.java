@@ -1,7 +1,7 @@
 package com.study.prhrsystem.repository;
 
 
-import com.study.prhrsystem.DTO.EmployeeDashboardRawDTO;
+import com.study.prhrsystem.dto.EmployeeDashboardRawDTO;
 import com.study.prhrsystem.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

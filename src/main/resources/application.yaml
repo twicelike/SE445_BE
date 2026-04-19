@@ -1,6 +1,7 @@
 spring:
   application:
     name: prhrsystem
-
+  profiles:
+    active: dev
 server:
   port: 8080

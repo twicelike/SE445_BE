@@ -1,4 +1,4 @@
-package com.study.prhrsystem.DTO;
+package com.study.prhrsystem.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class BenefitDTO {
-    private String plan;
-    private Double amount;
+public class VacationDTO {
     private int year;
+    private int daysUsed;
 }
