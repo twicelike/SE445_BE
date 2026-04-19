@@ -13,11 +13,13 @@ public class DepartmentService {
     private final DepartmentRepository departmentRepository;
 
     public List<DepartmentDTO> getAllDepartment() {
-        return  departmentRepository.findAll().stream()
+        return  departmentRepository.findAllDepartmentAndBranch().stream()
                 .map(department -> {
                     DepartmentDTO department1 = new DepartmentDTO();
                     department1.setDepartmentId(department.getDepartmentId());
                     department1.setDepartmentName(department.getDepartmentName());
+                    department1.setBranchId(department.getBranchId());
+                    department1.setBranchName(department.getBranchName());
                     return department1;
                 }).toList();
     }

@@ -24,6 +24,8 @@ public class Department {
 
     private Integer managerId;
 
+    private Integer branchId;
+
     @OneToMany(mappedBy = "department")
     private List<Employee> employees;
 }
